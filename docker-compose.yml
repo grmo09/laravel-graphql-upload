@@ -1,0 +1,8 @@
+version: "3"
+
+services:
+  app:
+    tty: true # Enables debugging capabilities when attached to this container.
+    image: "bitnami/php-fpm:7.2"
+    volumes:
+    - ./:/app
