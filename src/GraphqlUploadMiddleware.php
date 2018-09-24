@@ -1,6 +1,6 @@
 <?php
 
-namespace Axe\LaravelGraphqlUpload;
+namespace Axe\LaravelGraphQLUpload;
 
 use Closure;
 use Http\Client\Exception\RequestException;
